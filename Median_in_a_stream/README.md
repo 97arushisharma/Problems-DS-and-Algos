@@ -7,29 +7,29 @@ The first line of input contains an integer N denoting the number of elements in
 Output:
 For each element added to the stream print the floor of the new median in a new line.
  
-Constraints:
-1 <= N <= 106
-1 <= x <= 106
+Constraints:<br>
+1 <= N <= 106<br>
+1 <= x <= 106<br>
  
 ## Example:
 
-Input:
-4
-5
-15
-1 
-3
-Output:
-5
-10
-5
-4
+Input:<br>
+4<br>
+5<br>
+15<br>
+1<br>
+3<br>
+Output:<br>
+5<br>
+10<br>
+5<br>
+4<br>
  
 ## Explanation:
 
-Testcase 1:
-Flow in stream : 5, 15, 1, 3
-5 goes to stream --> median 5 (5)
-15 goes to stream --> median 10 (5, 15)
-1 goes to stream --> median 5 (5, 15, 1)
-3 goes to stream --> median 4 (5, 15, 1, 3)
+Testcase 1:<br>
+Flow in stream : 5, 15, 1, 3<br>
+5 goes to stream --> median 5 (5)<br>
+15 goes to stream --> median 10 (5, 15)<br>
+1 goes to stream --> median 5 (5, 15, 1)<br>
+3 goes to stream --> median 4 (5, 15, 1, 3)<br>
