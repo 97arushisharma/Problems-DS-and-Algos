@@ -14,18 +14,18 @@ Your Task:
 You don't need to take any input. Just complete the function correctBst() that takes node as parameter. The corrected BST will then be checked internally.
 
 Constraints:
-1 <= T <= 100
-1 <= N <= 100
+1 <= T <= 100<br>
+1 <= N <= 100<br>
 
 ### Example:
 
-Input:
-2
-4
-10 5 L 10 8 R  5 2 L 5 20 R
-5
-8 3 L 8 10 R 3 1 L 3 6 R 6 7 R
+Input:<br>
+2<br>
+4<br>
+10 5 L 10 8 R  5 2 L 5 20 R<br>
+5<br>
+8 3 L 8 10 R 3 1 L 3 6 R 6 7 R<br>
 
-Output:
-1
-0
+Output:<br>
+1<br>
+0<br>
