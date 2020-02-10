@@ -15,31 +15,31 @@ For each test case, output one line containing "Case #x: " followed by the alien
 
 ### Limits
 
-1 ≤ N ≤ 100.
+1 ≤ N ≤ 100.<br>
 
-Small dataset
+Small dataset<br>
 
-1 ≤ num digits in alien_number ≤ 4,
-2 ≤ num digits in source_language ≤ 16,
-2 ≤ num digits in target_language ≤ 16.
+1 ≤ num digits in alien_number ≤ 4,<br>
+2 ≤ num digits in source_language ≤ 16,<br>
+2 ≤ num digits in target_language ≤ 16.<br>
 
-Large dataset
+Large dataset<br>
 
-1 ≤ alien_number (in decimal) ≤ 1000000000,
-2 ≤ num digits in source_language ≤ 94,
-2 ≤ num digits in target_language ≤ 94.
+1 ≤ alien_number (in decimal) ≤ 1000000000,<br>
+2 ≤ num digits in source_language ≤ 94,<br>
+2 ≤ num digits in target_language ≤ 94.<br>
 
 ### Sample
 
-Input:
-4
-9 0123456789 oF8
-Foo oF8 0123456789
-13 0123456789abcdef 01
-CODE O!CDE? A?JM!.
+Input:<br>
+4<br>
+9 0123456789 oF8<br>
+Foo oF8 0123456789<br>
+13 0123456789abcdef 01<br>
+CODE O!CDE? A?JM!.<br>
 
-Output:
-Case #1: Foo
-Case #2: 9
-Case #3: 10011
-Case #4: JAM!
+Output:<br>
+Case #1: Foo<br>
+Case #2: 9<br>
+Case #3: 10011<br>
+Case #4: JAM!<br>
