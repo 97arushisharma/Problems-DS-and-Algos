@@ -10,19 +10,19 @@ The first line of input will contain the number of test cases T. Then T test cas
 Output:
 For each test case, output will be the kth smallest element of BST.
 
-Constraints:
-1<=T<=100
-1<=N<=100
-1<=K<=N
+Constraints:<br>
+1<=T<=100<br>
+1<=N<=100<br>
+1<=K<=N<br>
 
 
 ### Example(To be used only for expected output):
 
-Input:
-1
-5
-20 8 4 22 12
-3 
+Input:<br>
+1<br>
+5<br>
+20 8 4 22 12<br>
+3<br> 
 
-Output:
-12
+Output:<br>
+12<br>
