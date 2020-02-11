@@ -7,15 +7,15 @@ Each player moves independently of all other players. Players can only go throug
 
 You want to choose which door in each room can be opened, such that exactly K of the players will be able to escape. Can you find a way to do this, or determine that it is IMPOSSIBLE?
 
-Input
+Input<br>
 The first line of the input gives the number of test cases, T. T test cases follow. Each consists of one line containing three integers R, C, and K, as described above.
 
-Output
+Output<br>
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is IMPOSSIBLE if there is no solution, or POSSIBLE if there is. If there is a solution, output R more lines of C characters each, representing the grid of rooms. The j-th character on the i-th of these lines represents the room in the i-th row and j-th column of the grid; each character must be either uppercase N, S, E, or W, according to whether the door that opens from that room is the one that leads north, south, east, or west.
 
 If multiple answers are possible, you may output any one of them.
 
-Limits
+Limits<br>
 1 ≤ T ≤ 100.<br>
 Time limit: 20 seconds per test set. (10 seconds per test run.)<br>
 Memory limit: 1GB.<br>
