@@ -48,3 +48,19 @@ Case #2: IMPOSSIBLE<br>
 In our solution for Sample Case #1, the two players who start in the westernmost two rooms will go south until they escape, whereas the four players who start in the other four rooms will travel between those rooms in an endless clockwise circle and cannot escape.
 
 In Sample Case #2, there is only one room, so the player can definitely escape regardless of which particular door can be opened.
+
+## Code Output
+
+Input<br>
+ 
+2<br>
+2 3 2<br>
+1 1 0<br>
+
+Output<br>
+  
+Case #1: POSSIBLE<br>
+NWS<br>
+EEW<br>
+Case #2: IMPOSSIBLE<br>
+
