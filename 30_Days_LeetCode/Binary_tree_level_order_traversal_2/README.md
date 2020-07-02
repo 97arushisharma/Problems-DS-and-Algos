@@ -20,3 +20,21 @@ return its bottom-up level order traversal as:
 ]
 ```
 Type: Function Problem
+
+Test Case:
+
+```
+     3
+   /   \
+  5    20
+   \   /  
+    9 7
+```
+Solution:
+```
+[
+  [9,7],
+  [5,20],
+  [3]
+]
+```
