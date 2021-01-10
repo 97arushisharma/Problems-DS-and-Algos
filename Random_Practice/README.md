@@ -14,3 +14,8 @@ https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/
 - Given n companies. Each company provides Bi boxes where i is the company index in array Box. If there are m stores, find the maximum number of boxes that 
 can be distributed to each store, such that, each store gets same number of boxes and no store gets the boxes of more than other type.
 - Depth First Search - Water droplet problem.
+- Underhydrated and Overhydrated nodes in a tree. Given 2 arrays, one is the array with parents and other is the array with the water level(-1,0,1). Anything below -1 will be underhydrated and anything above 1 is overhydrated and gets the assigned penalty. You have to pour water on any one node. Find the minimum penalty.
+- Stock price can either reduce by 1 or double. Find the minimum days required for the stock price to be equal to m.
+- Longest substring with positive product.
+- SQL Query with windowing(moving_average)
+- Executor logs and Driver logs in spark job.
