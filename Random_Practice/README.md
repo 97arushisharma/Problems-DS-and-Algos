@@ -79,3 +79,17 @@ Output = 99, buy the stock at 1 and sell at 100.
 - URL Shortener.
 - Create a random music player given a list of music. The music player does not repeat the songs untill all the songs of the playlist have been played.
 - Create an in-memory storage with O(1) insertion, O(1) deletion and O(1) to pick random value.
+
+- Connect nodes at same level in a b-tree [Use additional pointer in every node which would point to it’s right node in the same level. Rightmost node in a level would point to NULL]
+- Find kth ancestor of a given node in b-tree
+- Check if a given array is desirable or not when desirable means there exists at least one case of i<j<k such that, arr[i]<arr[k]<arr[j].
+- Given an array of heights of different boxes. Find the number of ways 2 boxes can be stacked such that their height sum is a power of 2
+- Segregate anagrams from a string array. 
+```
+Input: [‘cat’, ‘dog’, ‘tac’, ‘god’]
+Output: [[‘cat’, ‘tac’], [‘dog’, ‘god’]]
+```
+
+- How would you implement employee hierarchy system in a company? Give OO approach.
+- Design an elevator system having multiple cabins (in a hall typically)
+
