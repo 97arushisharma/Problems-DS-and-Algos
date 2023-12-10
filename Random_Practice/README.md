@@ -95,74 +95,75 @@ Output: [[‘cat’, ‘tac’], [‘dog’, ‘god’]]
 
 
 Interview Questions:
-1.) Find mth element from start/end in a Single Linked List of size n
-2.) Level Order Traversal of a binary tree: https://www.geeksforgeeks.org/level-order-tree-traversal/
-3.) Snowpack (CP): https://github.com/rajkumardubey/MyInterviewChecklist/blob/master/src/self/learning/interview/coding/Snowpack.java
-$ 4.) Minimum steps to reach target by a Knight: https://www.geeksforgeeks.org/minimum-steps-reach-target-knight/
-$ 5.) Find the median in a stream of integers: https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
-6.) Implement a queue without STL(use OO approach) -> Enqueue, Dequeue
-7.) First Non Repeating Character in a string (CP)
-8.) Apache Log (CP): Ask in case of C++ proficiency
-9.) Find the mean of a stream of numbers: https://www.geeksforgeeks.org/average-of-a-stream-of-numbers/
-$ 10.) Reverse Level Order Traversal: https://www.geeksforgeeks.org/reverse-level-order-traversal/
-11.) Height of a binary tree: max(h1,h2) + 1
-12.) Minimum weighted branch of the binary tree: min(h1,h2) + weight if h1 != 0 and h2 != 0 https://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/
-$ 13.) Coloring a graph with minimum colors: https://www.geeksforgeeks.org/minimum-number-of-colors-required-to-color-a-graph/
-$ 14.) Detect a cycle in the graph: https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+- 1.) Find mth element from start/end in a Single Linked List of size n
+- 2.) Level Order Traversal of a binary tree: https://www.geeksforgeeks.org/level-order-tree-traversal/
+- 3.) Snowpack (CP): https://github.com/rajkumardubey/MyInterviewChecklist/blob/master/src/self/learning/interview/coding/Snowpack.java
+- $ 4.) Minimum steps to reach target by a Knight: https://www.geeksforgeeks.org/minimum-steps-reach-target-knight/
+- $ 5.) Find the median in a stream of integers: https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
+- 6.) Implement a queue without STL(use OO approach) -> Enqueue, Dequeue
+- 7.) First Non Repeating Character in a string (CP)
+- 8.) Apache Log (CP): Ask in case of C++ proficiency
+- 9.) Find the mean of a stream of numbers: https://www.geeksforgeeks.org/average-of-a-stream-of-numbers/
+- $ 10.) Reverse Level Order Traversal: https://www.geeksforgeeks.org/reverse-level-order-traversal/
+- 11.) Height of a binary tree: max(h1,h2) + 1
+- 12.) Minimum weighted branch of the binary tree: min(h1,h2) + weight if h1 != 0 and h2 != 0 https://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/
+- $ 13.) Coloring a graph with minimum colors: https://www.geeksforgeeks.org/minimum-number-of-colors-required-to-color-a-graph/
+- $ 14.) Detect a cycle in the graph: https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
 
 
 
 
 **Various Linux Commands**
 
-Question: given a list of files in format name-date-region.log, find the file row count and header and footer of files for a specific business dates/regions.
+*Question*: given a list of files in format name-date-region.log, find the file row count and header and footer of files for a specific business dates/regions.
 
-ls: The list command - functions in the Linux terminal to show all of the major directories filed under a given file system. For example, the command:
-
+*ls*: The list command - functions in the Linux terminal to show all of the major directories filed under a given file system. For example, the command:
+```
 ls /applications
+```
 
 will show the user all of the folders stored in the overall applications folder. The ls command is used for viewing files, folders and directories.
 
-cd: The change directory command allows the user to change between file directories. As the name command name suggest, you would use the cd command to circulate between two different directories. For example, if you wanted to change from the home directory to the applications directory, you would input the following command:
-
+*cd*: The change directory command allows the user to change between file directories. As the name command name suggest, you would use the cd command to circulate between two different directories. For example, if you wanted to change from the home directory to the applications directory, you would input the following command:
+```
 cd /home/applications
-
+```
 All Linux commands follow a logical path.
 
-grep: The grep command which stands for “global regular expression print,” processes text line by line and prints any lines which match a specified pattern. The grep command is used to search text or searches the given file for lines containing a match to the given strings or words. By default, grep displays the matching lines. For example
-
+*grep*: The grep command which stands for “global regular expression print,” processes text line by line and prints any lines which match a specified pattern. The grep command is used to search text or searches the given file for lines containing a match to the given strings or words. By default, grep displays the matching lines. For example
+```
 grep arushi
-
+```
 will search and print all the lines that contain the word “arushi”.
 
-man: The man command - the manual command - is used to show the manual of the inputted command. Just like a film on the nature of film, the man command is the meta command of the Linux CLI. Inputting the man command will show you all information about the command you are using. An example:
-
+*man*: The man command - the manual command - is used to show the manual of the inputted command. Just like a film on the nature of film, the man command is the meta command of the Linux CLI. Inputting the man command will show you all information about the command you are using. An example:
+```
 man cd
-
+```
 The inputting command will show the manual or all relevant information for the change directory command.
 
-mkdir: The mkdir - make directory - command allows the user to make a new directory. Just like making a new directory within a PC or Mac desktop environment, the mkdir command makes new directories in a Linux environment. An example of the mkdir command
-
+*mkdir*: The mkdir - make directory - command allows the user to make a new directory. Just like making a new directory within a PC or Mac desktop environment, the mkdir command makes new directories in a Linux environment. An example of the mkdir command
+```
 mkdir testdirectory
-
+```
 The example command made the directory "testdirectory".
 
-rmdir:The rmdir - remove directory - command allows the user to remove an existing command using the Linux CLI. An example of the rmdir command:
-
+*rmdir*:The rmdir - remove directory - command allows the user to remove an existing command using the Linux CLI. An example of the rmdir command:
+```
 rmdir testdirectory
-
+```
 The example command removed the directory "testdirectory".
 
-touch: The touch command - a.k.a. the make file command - allows users to make files using the Linux CLI. Just as the mkdir command makes directories, the touch command makes files. Just as you would make a .doc or a .txt using a PC desktop, the touch command makes empty files. An example of the touch command:
-
+*touch*: The touch command - a.k.a. the make file command - allows users to make files using the Linux CLI. Just as the mkdir command makes directories, the touch command makes files. Just as you would make a .doc or a .txt using a PC desktop, the touch command makes empty files. An example of the touch command:
+```
 touch testfile.txt
-
+```
 The example touch command effectively created the file testfile.txt. As noted by the extension, the file created is a .txt or text file. To equate, a .txt file in Linux is akin to a .txt notebook file within a Windows or Mac OS.
 
-rm: The rm command - remove - like the rmdir command is meant to remove files from your Linux OS. Whereas the rmdir command will remove directories and files held within, the rm command will delete created files. An example of the rm command:
-
+*rm*: The rm command - remove - like the rmdir command is meant to remove files from your Linux OS. Whereas the rmdir command will remove directories and files held within, the rm command will delete created files. An example of the rm command:
+```
 rm testfile.txt
-
+```
 The aforementioned command removed testfile.txt. Interestingly, whereas the rmdir command will only delete an empty directory, the rm command will remove both files and directories with files in it. This said, the rm command carries more weight than the rmdir command and should be used with more specificity.
 
 
